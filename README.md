@@ -57,15 +57,17 @@ The necessary binaries can be found in the [project releases](https://github.com
     * Currently supported are Tang Nano 20k with HDMI (```nanomig.fs```), Tang Nano 20k with RGB LCD (```nanomig_lcd.fs```), Tang Primer 25k (```nanomig_tp25k.fs```), Tang Mega 138k (```nanomig_tm128k.fs```), and Tang Console 60k (```nanomig_tc60k.fs```)
   * On Nano 20k, Primer 25k and Console 60K Kickstart 1.3 ```kick13.rom``` needs to be flashed to offset 0x400000 _and_ 0x440000. On Mega 138K use addresses 0xc00000 and 0xc40000 instead.
 
-    ** 256 Kbyte rom *kick34005.rom 
+    ** 256 Kbyte rom
+    ** fd99e99b2d9fb4024a5dc3d5b428a117*kick34005.rom 
     * ```openFPGALoader --external-flash -o 0x400000 kick13.rom```
     * ```openFPGALoader --external-flash -o 0x440000 kick13.rom```
 
-    ** 512 Kbyte rom 192d6d950d0ed3df8040b788502831c2 *Kickstart v1.3 rev 34.5 (1987)(Commodore)(A500-A1000-A2000-CDTV)[o].rom 
+    ** 512 Kbyte rom
+    ** 192d6d950d0ed3df8040b788502831c2 *Kickstart v1.3 rev 34.5 (1987)(Commodore)(A500-A1000-A2000-CDTV)[o].rom 
     * ```openFPGALoader --external-flash -o 0x400000 Kickstart v1.3 rev 34.5 (1987)(Commodore)(A500-A1000-A2000-CDTV)[o].rom```
       
   * For IDE HDD support Kickstart 3.1 ```kick31.rom``` needs to be flashed at offset 0x400000 (Mega: 0xc00000) only
-    512 Kbyte rom
+    ** 512 Kbyte rom
     ** e40a5dfb3d017ba8779faba30cbd1c8e *Kickstart v3.1 rev 40.63 (1993)(Commodore)(A500-A600-A2000)[!].rom
     ** b7fac88c1065fd3994b66e23041c7354 *Kickstart v3.1 rev 40.63 (1993)(Commodore)(A500-A600-A2000)[h ShapeShifter].rom
     * ```openFPGALoader --external-flash -o 0x400000 kick31.rom```
