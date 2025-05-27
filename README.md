@@ -63,13 +63,13 @@ The necessary binaries can be found in the [project releases](https://github.com
     * ```openFPGALoader --external-flash -o 0x440000 kick13.rom```
 
     ** 512 Kbyte rom
-    ** 192d6d950d0ed3df8040b788502831c2 *Kickstart v1.3 rev 34.5 (1987)(Commodore)(A500-A1000-A2000-CDTV)[o].rom 
-    * ```openFPGALoader --external-flash -o 0x400000 Kickstart v1.3 rev 34.5 (1987)(Commodore)(A500-A1000-A2000-CDTV)[o].rom```
+    ** 192d6d950d0ed3df8040b788502831c2 *Kickstart_v1.3_34.5_A500-A1000-A2000-CDTV.rom
+    * ```openFPGALoader --external-flash -o 0x400000 Kickstart_v1.3_34.5_A500-A1000-A2000-CDTV.rom```
       
   * For IDE HDD support Kickstart 3.1 ```kick31.rom``` needs to be flashed at offset 0x400000 (Mega: 0xc00000) only
     ** 512 Kbyte rom
-    ** e40a5dfb3d017ba8779faba30cbd1c8e *Kickstart v3.1 rev 40.63 (1993)(Commodore)(A500-A600-A2000)[!].rom
-    ** b7fac88c1065fd3994b66e23041c7354 *Kickstart v3.1 rev 40.63 (1993)(Commodore)(A500-A600-A2000)[h ShapeShifter].rom
+    ** e40a5dfb3d017ba8779faba30cbd1c8e *Kickstart_v3.1_40.63_A500-A600-A2000.rom
+    ** b7fac88c1065fd3994b66e23041c7354 *kick31.rom
     * ```openFPGALoader --external-flash -o 0x400000 kick31.rom```
 
   * The [latest FPGA Companion firmware](http://github.com/harbaum/FPGA-Companion) needs to be flashed to the support MCU
