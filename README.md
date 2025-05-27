@@ -1,3 +1,8 @@
+# First entry and credits
+All the work and effort belongs to https://github.com/harbaum.
+I would like to thanks for sharing such a work with us.
+
+This fork was created to write additional explanations for the work on https://github.com/harbaum/NanoMig.
 # NanoMig
 
 NanoMig is a port of the [Minimig](https://en.wikipedia.org/wiki/Minimig) Commodore Amiga FPGA implementation to the [Tang Nano 20K](https://wiki.sipeed.com/hardware/en/tang/tang-nano-20k/nano-20k.html), [Tang Primer 25K](https://wiki.sipeed.com/hardware/en/tang/tang-primer-25k/primer-25k.html), [Tang Mega 138K Pro](https://wiki.sipeed.com/hardware/en/tang/tang-mega-138k/mega-138k-pro.html) and [Tang Console with Mega 60k module](https://wiki.sipeed.com/hardware/en/tang/tang-console/mega-console.html) FPGA development boards.
@@ -56,6 +61,10 @@ The necessary binaries can be found in the [project releases](https://github.com
     * ```openFPGALoader -f nanomig.fs```
     * Currently supported are Tang Nano 20k with HDMI (```nanomig.fs```), Tang Nano 20k with RGB LCD (```nanomig_lcd.fs```), Tang Primer 25k (```nanomig_tp25k.fs```), Tang Mega 138k (```nanomig_tm128k.fs```), and Tang Console 60k (```nanomig_tc60k.fs```)
   * On Nano 20k, Primer 25k and Console 60K Kickstart 1.3 ```kick13.rom``` needs to be flashed to offset 0x400000 _and_ 0x440000. On Mega 138K use addresses 0xc00000 and 0xc40000 instead.
+
+    The Kickstart v1.3 file is normally 256Kbytes long,
+    but since the file content has the same CRC values ​​that have been confirmed to work,
+    you do not need to upload it twice as it is the same in the 2nd 256 KByte area.
 
     ** 256 Kbyte rom
     
