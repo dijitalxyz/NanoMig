@@ -19,6 +19,7 @@ Current state:
   * HDMI video and audio, PAL and NTSC
   * Keyboard, Mouse and Joystick via USB
   * Virtual IDE hard disk read an write support
+  * Support exFAT, FAT32 formatted SD card
   * Runs on [Tang Nano 20k](https://wiki.sipeed.com/hardware/en/tang/tang-nano-20k/nano-20k.html), [Primer 25K](https://wiki.sipeed.com/hardware/en/tang/tang-primer-25k/primer-25k.html), [Mega 138K Pro](https://wiki.sipeed.com/hardware/en/tang/tang-mega-138k/mega-138k-pro.html) and [Tang Console with Mega 60k module](https://wiki.sipeed.com/hardware/en/tang/tang-console/mega-console.html)
   * [Fully simulated](sim)
 
