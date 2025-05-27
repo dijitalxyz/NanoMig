@@ -58,11 +58,13 @@ The necessary binaries can be found in the [project releases](https://github.com
   * On Nano 20k, Primer 25k and Console 60K Kickstart 1.3 ```kick13.rom``` needs to be flashed to offset 0x400000 _and_ 0x440000. On Mega 138K use addresses 0xc00000 and 0xc40000 instead.
 
     ** 256 Kbyte rom
+    
     ** fd99e99b2d9fb4024a5dc3d5b428a117*kick34005.rom 
     * ```openFPGALoader --external-flash -o 0x400000 kick13.rom```
     * ```openFPGALoader --external-flash -o 0x440000 kick13.rom```
 
     ** 512 Kbyte rom
+    
     ** 192d6d950d0ed3df8040b788502831c2 *Kickstart_v1.3_34.5_A500-A1000-A2000-CDTV.rom
     * ```openFPGALoader --external-flash -o 0x400000 Kickstart_v1.3_34.5_A500-A1000-A2000-CDTV.rom```
       
