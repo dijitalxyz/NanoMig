@@ -56,6 +56,10 @@ These youtube shorts mainly document the progress:
 ## What's needed?
 
 The necessary binaries can be found in the [project releases](https://github.com/harbaum/NanoMig/releases).
+I could not program fpga under windows in the first days,
+so if you have a linux operating system,
+it would be better to start working with openFPGALoader.
+
 
   * ```nanomig.fs``` needs to be flashed to the FPGA's flash memory
     * ```openFPGALoader -f nanomig.fs```
@@ -67,24 +71,19 @@ The necessary binaries can be found in the [project releases](https://github.com
     you do not need to upload it twice as it is the same in the 2nd 256 KByte area.
 
     ** 256 Kbyte rom
-    
     * fd99e99b2d9fb4024a5dc3d5b428a117*kick34005.rom 
     * ```openFPGALoader --external-flash -o 0x400000 kick13.rom```
     * ```openFPGALoader --external-flash -o 0x440000 kick13.rom```
 
     ** 512 Kbyte rom
-    
     * 192d6d950d0ed3df8040b788502831c2 *Kickstart_v1.3_34.5_A500-A1000-A2000-CDTV.rom
     * ```openFPGALoader --external-flash -o 0x400000 Kickstart_v1.3_34.5_A500-A1000-A2000-CDTV.rom```
       
   * For IDE HDD support Kickstart 3.1 ```kick31.rom``` needs to be flashed at offset 0x400000 (Mega: 0xc00000) only
 
     ** 512 Kbyte rom
-    
     * e40a5dfb3d017ba8779faba30cbd1c8e *Kickstart_v3.1_40.63_A500-A600-A2000.rom
-
     * b7fac88c1065fd3994b66e23041c7354 *kick31.rom
-
     * ```openFPGALoader --external-flash -o 0x400000 kick31.rom```
 
   * The [latest FPGA Companion firmware](http://github.com/harbaum/FPGA-Companion) needs to be flashed to the support MCU
