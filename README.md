@@ -69,8 +69,8 @@ The necessary binaries can be found in the [project releases](https://github.com
   * For IDE HDD support Kickstart 3.1 ```kick31.rom``` needs to be flashed at offset 0x400000 (Mega: 0xc00000) only
 
     ** 512 Kbyte rom
+    
     ** e40a5dfb3d017ba8779faba30cbd1c8e *Kickstart_v3.1_40.63_A500-A600-A2000.rom
-
     ** b7fac88c1065fd3994b66e23041c7354 *kick31.rom
 
     * ```openFPGALoader --external-flash -o 0x400000 kick31.rom```
