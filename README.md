@@ -69,7 +69,7 @@ it would be better to start working with openFPGALoader.
 
     The Kickstart v1.3 file is normally 256Kbytes long,
     but since the file content has the same CRC values ​​that have been confirmed to work,
-    you do not need to upload it twice as it is the same in the 2nd 256 KByte area.
+    you do not need to flash it twice as it is the same in the 2nd 256 KByte area.
 
     ** 256 Kbyte rom
     * fd99e99b2d9fb4024a5dc3d5b428a117*kick34005.rom 
