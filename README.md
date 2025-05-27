@@ -56,6 +56,7 @@ These youtube shorts mainly document the progress:
 ## What's needed?
 
 The necessary binaries can be found in the [project releases](https://github.com/harbaum/NanoMig/releases).
+
 I could not program fpga under windows in the first days,
 so if you have a linux operating system,
 it would be better to start working with openFPGALoader.
