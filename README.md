@@ -57,7 +57,7 @@ The necessary binaries can be found in the [project releases](https://github.com
     * Currently supported are Tang Nano 20k with HDMI (```nanomig.fs```), Tang Nano 20k with RGB LCD (```nanomig_lcd.fs```), Tang Primer 25k (```nanomig_tp25k.fs```), Tang Mega 138k (```nanomig_tm128k.fs```), and Tang Console 60k (```nanomig_tc60k.fs```)
   * On Nano 20k, Primer 25k and Console 60K Kickstart 1.3 ```kick13.rom``` needs to be flashed to offset 0x400000 _and_ 0x440000. On Mega 138K use addresses 0xc00000 and 0xc40000 instead.
 
-    ** fd99e99b2d9fb4024a5dc3d5b428a117 *kick34005.rom 256 Kbyte rom
+    **  *kick34005.rom 256 Kbyte rom
     * ```openFPGALoader --external-flash -o 0x400000 kick13.rom```
     * ```openFPGALoader --external-flash -o 0x440000 kick13.rom```
 
